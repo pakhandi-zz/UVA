@@ -1,5 +1,6 @@
 //Author : pakhandi
 //
+//UVA solution :: Newspaper
 using namespace std;
 
 #include<bits/stdc++.h>

@@ -1,5 +1,6 @@
 //Author : pakhandi
 //
+//UVA solution : Conformity
 using namespace std;
 
 #include<bits/stdc++.h>

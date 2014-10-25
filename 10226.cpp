@@ -1,5 +1,6 @@
 //Author : pakhandi
 //
+//UVA solution : Hardwood Species
 using namespace std;
 
 #include<bits/stdc++.h>
