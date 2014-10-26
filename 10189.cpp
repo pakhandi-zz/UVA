@@ -40,69 +40,50 @@ int main()
 		fl(i,0,105)
 			fl(j,0,105)
 				mat[i][j]=0;
-		fl(i,0,n)
+		fl(i,1,n+1)
 		{
-			cin>>v[i];
-		}
-		//int limit=v[0].SZ();
-		fl(i,0,n)
-		{
-			//string str1=v[i];
+			string str1;
+			cin>>str1;
 			fl(j,0,m)
 			{
-				if(v[i][j]=='*')
-				{
-					mat[i][j]=-1;
-					continue;
-				}
-				
-				if(i-1>=0 && j-1>=0)
-				{
-					if(v[i-1][j-1]=='*')
-						mat[i][j]+=1;					
-				}
-				if(i-1>=0)
-				{
-					if(v[i-1][j]=='*')
-						mat[i][j]+=1;					
-				}
-				if(i-1>=0 && j+1<m)
-				{
-					if(v[i-1][j+1]=='*')
-						mat[i][j]+=1;					
-				}
-				if(j-1>=0)
-				{
-					if(v[i][j-1]=='*')
-						mat[i][j]+=1;					
-				}
-				if(j+1<m)
-				{
-					if(v[i][j+1]=='*')
-						mat[i][j]+=1;					
-				}
-				if(i+1<n && j-1>=0)
-				{
-					if(v[i+1][j-1]=='*')
-						mat[i][j]+=1;					
-				}
-				if(i+1<n)
-				{
-					if(v[i+1][j]=='*')
-						mat[i][j]+=1;					
-				}
-				if(i+1<n && j+1<m)
-				{
-					if(v[i+1][j+1]=='*')
-						mat[i][j]+=1;					
-				}
+				if(str1[j]=='*')
+					mat[i][j+1]=-1;
+				else
+					mat[i][j+1]=0;
 				
 			}
 		}
-		cout<<"Field #"<<k<<":"; k++;nline;
-		fl(i,0,n)
+		
+		fl(i,1,n+1)
 		{
-			fl(j,0,m)
+			fl(j,1,m+1)
+			{
+				if(mat[i][j]==-1)
+					continue;
+				if(mat[i-1][j-1]==-1)
+						mat[i][j]+=1;
+				if(mat[i-1][j]==-1)
+						mat[i][j]+=1;
+				if(mat[i-1][j+1]==-1)
+						mat[i][j]+=1;
+				if(mat[i][j-1]==-1)
+						mat[i][j]+=1;
+				if(mat[i][j+1]==-1)
+						mat[i][j]+=1;
+				if(mat[i+1][j-1]==-1)
+						mat[i][j]+=1;
+				if(mat[i+1][j]==-1)
+						mat[i][j]+=1;
+				if(mat[i+1][j+1]==-1)
+						mat[i][j]+=1;
+			}
+		}
+		//int limit=v[0].SZ();
+		
+		cout<<"Field #"<<k<<":"; k++;nline;
+		fl(i,1,n+1)
+		{
+			fl(j,1,m+1)
 			{
 				if(mat[i][j]==-1)
 					cout<<"*";
