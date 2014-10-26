@@ -7,6 +7,8 @@ solutions to some UVA problems
 The Snail<br>
 Beat The Spread!<br>
 List of Conquests<br>
+Horror Dash<br>
+Event Planning<br>
 
 <b>Linear Data Structure :-</b><br>
 Newspaper<br>
@@ -18,3 +20,13 @@ Hardwood Species<br>
 
 <b>STL :: ALGORITHM :- </b><br>
 ID Codes<br>
+
+<b>String :- </b><br>
+What is The Card<br>
+
+<b>Multi-dimensional Array :- </b><br>
+Minesweeper<br>
+Rat Attack<br>
+
+<b>Dynamic Programming :- </b><br>
+Wedding Shopping<br>
