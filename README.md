@@ -17,6 +17,7 @@ Jolly Jumpers<br>
 <b>STL :: MAPS :- </b><br>
 Conformity <br>
 Hardwood Species<br>
+Ananagrams<br>
 
 <b>STL :: ALGORITHM :- </b><br>
 ID Codes<br>
