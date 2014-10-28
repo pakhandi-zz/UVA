@@ -28,8 +28,6 @@ using namespace std;
 
 int main()
 {
-	//freopen("C:\\Users\\DELL\\Desktop\\input.txt","r",stdin);
-    //freopen("C:\\Users\\DELL\\Desktop\\output.txt","w",stdout);
 	int i, j, cases, k=1;
 	map<string, int> mp;
 	map<string, string> mp1;
