@@ -13,6 +13,7 @@ Event Planning<br>
 <b>Linear Data Structure :-</b><br>
 Newspaper<br>
 Jolly Jumpers<br>
+Power Crisis<br>
 
 <b>STL :: MAPS :- </b><br>
 Conformity <br>
