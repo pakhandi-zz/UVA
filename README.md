@@ -14,11 +14,16 @@ Event Planning<br>
 Newspaper<br>
 Jolly Jumpers<br>
 Power Crisis<br>
+Train Swapping<br>
 
 <b>STL :: MAPS :- </b><br>
 Conformity <br>
 Hardwood Species<br>
 Ananagrams<br>
+
+<b> STL :: STACK :- </b><br>
+Rails <br>
+Parenthesis Balance <br>
 
 <b>STL :: ALGORITHM :- </b><br>
 ID Codes<br>
