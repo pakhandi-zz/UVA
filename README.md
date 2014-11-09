@@ -9,6 +9,7 @@ Beat The Spread!<br>
 List of Conquests<br>
 Horror Dash<br>
 Event Planning<br>
+Peter's Smokes<br>
 
 <b>Linear Data Structure :-</b><br>
 Newspaper<br>
@@ -21,9 +22,13 @@ Conformity <br>
 Hardwood Species<br>
 Ananagrams<br>
 
-<b> STL :: STACK :- </b><br>
+<b>STL :: STACK :- </b><br>
 Rails <br>
 Parenthesis Balance <br>
+
+<b>STL :: QUEUE :- </b><br>
+Ferry Loading III <br>
+Ferry Loading IV <br>
 
 <b>STL :: ALGORITHM :- </b><br>
 ID Codes<br>
