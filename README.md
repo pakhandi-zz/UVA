@@ -43,3 +43,10 @@ Rat Attack<br>
 
 <b>Dynamic Programming :- </b><br>
 Wedding Shopping<br>
+
+<b>Graph :- </b><br>
+A Node Too Far<br>
+
+<b>Maths :- </b><br>
+Big Mod<br>
+
