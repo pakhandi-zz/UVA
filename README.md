@@ -30,6 +30,9 @@ Parenthesis Balance <br>
 Ferry Loading III <br>
 Ferry Loading IV <br>
 
+<b>STL :: PAIR :-</b>
+My Dear Neighbours<br>
+
 <b>STL :: ALGORITHM :- </b><br>
 ID Codes<br>
 Age Sort<br>
